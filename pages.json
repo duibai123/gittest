@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/zuiyou/index",
+			"style": {
+				"usingComponents": {
+					"van-button": "/wxcomponents/dist/button/index",
+					"van-sticky": "/wxcomponents/dist/sticky/index",
+					"van-dialog": "/wxcomponents/dist/dialog/index"
+				}
+			}
+		},
+		{
+			"path": "pages/youyou/index"
+		},
+		{
+			"path": "pages/post/index"
+		},
+		{
+			"path": "pages/message/index"
+		},
+		{
+			"path": "pages/me/index"
+		},
+		{
+			"path": "pages/zuiyou/talkingPoint"
+		},
+		{
+			"path": "pages/zuiyou/detail",
+			"style": {
+				"usingComponents": {
+					"van-button": "/wxcomponents/dist/button/index",
+					"van-divider": "/wxcomponents/dist/divider/index"
+				}
+			}
+		},
+		{
+			"path": "pages/zuiyou/personalHomepage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/me/Logon"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "最右",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/zuiyou/index",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/home-active.png",
+				"text": "最右"
+			}, {
+				"pagePath": "pages/youyou/index",
+				"iconPath": "/static/circle.png",
+				"selectedIconPath": "/static/circle-active.png",
+				"text": "右友"
+			}, {
+				"pagePath": "pages/post/index",
+				"iconPath": "/static/upload.png",
+				"selectedIconPath": "/static/upload-active.png",
+				"text": "发布"
+			}, {
+				"pagePath": "pages/message/index",
+				"iconPath": "/static/message.png",
+				"selectedIconPath": "/static/message-active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"iconPath": "/static/me.png",
+				"selectedIconPath": "/static/me-active.png",
+				"text": "我的"
+			}
+		]
+	}
+
+}

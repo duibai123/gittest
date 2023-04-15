@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-button": "../../wxcomponents/dist/button/index",
+    "van-sticky": "../../wxcomponents/dist/sticky/index",
+    "van-dialog": "../../wxcomponents/dist/dialog/index",
+    "action-bar": "../components/actionBar"
+  }
+}

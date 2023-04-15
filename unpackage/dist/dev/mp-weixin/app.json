@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/zuiyou/index",
+    "pages/youyou/index",
+    "pages/post/index",
+    "pages/message/index",
+    "pages/me/index",
+    "pages/zuiyou/talkingPoint",
+    "pages/zuiyou/detail",
+    "pages/zuiyou/personalHomepage",
+    "pages/me/Logon"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "最右",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/zuiyou/index",
+        "iconPath": "/static/home.png",
+        "selectedIconPath": "/static/home-active.png",
+        "text": "最右"
+      },
+      {
+        "pagePath": "pages/youyou/index",
+        "iconPath": "/static/circle.png",
+        "selectedIconPath": "/static/circle-active.png",
+        "text": "右友"
+      },
+      {
+        "pagePath": "pages/post/index",
+        "iconPath": "/static/upload.png",
+        "selectedIconPath": "/static/upload-active.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "/static/message.png",
+        "selectedIconPath": "/static/message-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "/static/me.png",
+        "selectedIconPath": "/static/me-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

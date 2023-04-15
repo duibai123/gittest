@@ -1,0 +1,31 @@
+
+.search-btn {
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		height: 40px;
+		background-color: #f6f5fa;
+}
+.tab-style {
+		font-size: 12px;
+		height: 20px;
+		padding: 10px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		background-color: #f6f6f8;
+		/* border-radius: 0 10px 10px 0; */
+}
+.pre-active {
+		/* color: red; */
+		border-radius: 0 0 10px 0;
+}
+.next-active {
+		border-radius: 0 10px 0 0;
+}
+.nav-active {
+		background-color: white;
+		color: #2986c5;
+}

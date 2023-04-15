@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-button": "../../wxcomponents/dist/button/index",
+    "van-divider": "../../wxcomponents/dist/divider/index",
+    "action-bar": "../components/actionBar"
+  }
+}

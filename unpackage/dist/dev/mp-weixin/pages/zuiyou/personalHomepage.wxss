@@ -1,0 +1,33 @@
+
+.tab-active {
+		color: #1d96da;
+}
+.background-active {
+		width: 8px;
+		height: 2px;
+		background-color: #1d96da;
+		margin-top: 2px;
+}
+.tabs-active {
+		color: black;
+		border: gray 1px solid;
+
+		border-radius: 10px;
+}
+.next {
+		margin-left: 20px;
+}
+.tabs {
+		padding: 2px 5px;
+}
+.content {
+		width: 400rpx;
+		height: 400rpx;
+		border: 1px solid;
+		margin-left: 10rpx;
+		margin-top: 10px
+}
+.text {
+		margin-left: 15px;
+		font-size: 14px;
+}
